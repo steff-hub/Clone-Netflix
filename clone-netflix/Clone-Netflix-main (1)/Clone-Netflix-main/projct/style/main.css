@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --vermelho: #E50914;
+
+    --preto: #141414;
+
+}
+/*Base*/
+
+body{
+    background: var(--preto);
+
+    font-family: "Time New Roman",times, serif;
+
+    color: white;
+
+
+}
+
+
+header .container{
+    margin-left: 30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+
+
+
+}
+
+
+.logo{
+    color: var(--vermelho);
+    font-family: "Arial Black"; 
+    font-size: 40px;
+
+
+}
+header nav a{
+    text-decoration: none;
+    color:#aaa;
+    margin-right:10px;
+
+}
+
+header nav a:hover{
+    color:#fff;
+
+
+}
+
+/*Serie Post Principal*/
+
+.filme-principal {
+
+    font-size: 16px;
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)80%), url('../img/capa.jpg') ;
+
+
+
+    height: 450px;
+    background-size:cover; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+
+
+}
+
+
+.filme-principal .titulo{
+    font-size: 80px;
+    font-family: 'Arial', Arial, sans-serif;
+    margin-top: 02%;
+
+
+
+}
+
+.filme-principal .sinopse{
+    font-size:20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+  
+.botao{
+    
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 200px;
+    height: 40px;
+   
+    
+    cursor: pointer;
+    transition:ease all 0.3s
+
+
+
+
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.filme-principal .container{
+    width: 40%;
+}
+
+
+.box-filme{
+
+    height:10%;
+    width:10%;
+    display: block;
+
+}
+
+.carrossel-filmes{
+
+    margin-top:6px;
+
+}
